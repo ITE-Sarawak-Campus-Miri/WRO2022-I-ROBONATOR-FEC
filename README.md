@@ -12,11 +12,11 @@ This repository contains engineering materials of a self-driven vehicle's model 
 
 ## Our Team
 
--Vun Xiu Xuan (Programmer)
+-Vun Xiu Xuan
 
--Alvin Kong Wei Ee (Assistant)
+-Alvin Kong Wei Ee 
 
--Lai Chaun Choy (Robot Handler)
+-Lai Chaun Choy 
 
 ## Introduction
 
@@ -87,3 +87,4 @@ Before the robot vehicle is being quarantined, the program will be downloaded to
 
 
 ## Credits
+We would like to express our gratitude LEGO Education for your support and effort in providing us a good quality of LEGO EV3 sets. Besides that, the LEGO Mindstorms EV3 websites also contribute much in guiding us to creat the programming for the competition.
