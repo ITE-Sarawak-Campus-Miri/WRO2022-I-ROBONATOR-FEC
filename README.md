@@ -53,7 +53,7 @@ When the color sensor detected the orange or blue color on the map, it will adju
 The gyro sensor will help to detect rotational motion. Reset mode of the gyro sensor can minimize the "drifting" that cause the angle become inaccurate.
 
 #### Ultrasonic sensor
-The ultrasonic sensor can help to measure the distance to an object in front of it. Therefore, the sensor that install at the side of the vehicle can allow the vehicle to move in a suitable distance that would not cause it to knock the wall.
+The ultrasonic sensor can help to measure the distance to an object in front of it. Therefore, the sensor that install at the side of the vehicle can allow the vehicle to move in a suitable distance that would not cause it to knock the wall. This is because the ultrasonic sensor will make sure the vehicle to run in the middle of the lane.
 
 #### Pixy2
 The Pixy2 can learn to detect objects that thaught to it. For example, it can detect the red and green pillar based on the signature set. When the Pixy2 detected the green pillar, it will tell the robot to turn left.
@@ -76,7 +76,7 @@ The `MAIN` part is the main part of the software. It contains the main program o
 Round 1 is known as qualifying round. Our teams will programmed the robot vehicle to run in a proper way that will not knock on the wall. The ultrasonic sensor will be set up to make sure the vehicle is in certain distance away from the wall. Next, when the color sensor detected the orange line, the vehicle will react by turning left. When the color sensor detected blue line, the cehicle will react by turning right.
 
 ## Round 2
-For round 2, the main core of programming used is also same with the round 1. However, sensors such as Pixy2 are being used to avoid hitting the obstacles. In the beginning, the robot will start to run in certain distance away from the wall. When the Pixy2 sensed the green pillar, the robot will turn the steering to the left and when the Pixy2 sensed the red pillar, the robot's steering will turn to right. The gyro sensor will make sure the robot vehicle to run in the midde of the field.
+For round 2, the main core of programming used is also same with the round 1. However, sensors such as Pixy2 are being used to avoid hitting the obstacles. When there is no pillar in front of the vehicle, the robot will start to run in certain distance away from the wall by using ultrasonic sensor to make sure the vehicle run in the middle of the lane. When the Pixy2 sensed the green pillar, the robot will turn the steering to the left and when the Pixy2 sensed the red pillar, the robot's steering will turn to right.
 
 ## Driving Demonstration
 This is our driving demonstration on both task which is without pillars and with pillars.
@@ -87,4 +87,4 @@ Before the robot vehicle is being quarantined, the program will be downloaded to
 
 
 ## Credits
-We would like to express our gratitude LEGO Education for your support and effort in providing us a good quality of LEGO EV3 sets. Besides that, the LEGO Mindstorms EV3 websites also contribute much in guiding us to creat the programming for the competition.
+We would like to express our gratitude LEGO Education for your support and effort in providing us a good quality of LEGO EV3 sets. Besides that, the LEGO Mindstorms EV3 websites also contribute much in guiding us to create the programming for the competition.
