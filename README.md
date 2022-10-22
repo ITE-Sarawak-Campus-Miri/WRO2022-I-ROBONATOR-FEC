@@ -73,7 +73,7 @@ The `CONFIG` part is the configuration part of the software. It contains the con
 The `MAIN` part is the main part of the software. It contains the main program of the vehicle.
 
 ## Round 1
-Round 1 is known as qualifying round. Our teams will programmed the robot vehicle to run in a proper way that will not knock on the wall. The ultrasonic sensor will be set up to make sure the vehicle is in certain distance away from the wall. Next, when the color sensor detected the blue or orange color, the steering will react by turning left or right according to the match direction.
+Round 1 is known as qualifying round. Our teams will programmed the robot vehicle to run in a proper way that will not knock on the wall. The ultrasonic sensor will be set up to make sure the vehicle is in certain distance away from the wall. Next, when the color sensor detected the orange line, the vehicle will react by turning left. When the color sensor detected blue line, the cehicle will react by turning right.
 
 ## Round 2
 For round 2, the main core of programming used is also same with the round 1. However, sensors such as Pixy2 are being used to avoid hitting the obstacles. In the beginning, the robot will start to run in certain distance away from the wall. When the Pixy2 sensed the green pillar, the robot will turn the steering to the left and when the Pixy2 sensed the red pillar, the robot's steering will turn to right. The gyro sensor will make sure the robot vehicle to run in the midde of the field.
@@ -83,7 +83,7 @@ This is our driving demonstration on both task which is without pillars and with
 https://youtu.be/Tq-YRfk3yTg 
 
 ## How to Setup and Run
-Before the robot vehicle is being quarantined, the program will be downloaded to the brick through the USB cable. The robot will be placed in the starting zone that has been determined by the judges.  When the right button on the brick is pressed, the robot vehicle will move in clockwise direction. On the other hand, when the left button on the brick is pressed, the robot vehicle will run in anticlockwise direction. 
+Before the robot vehicle is being quarantined, the program will be downloaded to the brick through the USB cable. The robot will be placed in the starting zone that has been determined by the judges.  When the judge gives the signal to start the vehicle, the starting button is then pressed to run the program.
 
 
 ## Credits
