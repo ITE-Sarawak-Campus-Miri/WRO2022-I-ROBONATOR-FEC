@@ -82,11 +82,8 @@ For round 2, the main core of programming used is also same with the round 1. Ho
 This is our driving demonstration on both task which is without pillars and with pillars.
 https://youtu.be/Tq-YRfk3yTg 
 
-## How to Setup
+## How to Setup and Run
+Before the robot vehicle is being quarantined, the program will be downloaded to the brick through the USB cable. The robot will be placed in the starting zone that has been determined by the judges.  When the right button on the brick is pressed, the robot vehicle will move in clockwise direction. On the other hand, when the left button on the brick is pressed, the robot vehicle will run in anticlockwise direction. 
 
-
-## How to Run
-
-## How to Contribute
 
 ## Credits
