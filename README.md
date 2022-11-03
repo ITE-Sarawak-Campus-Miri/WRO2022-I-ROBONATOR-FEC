@@ -87,4 +87,4 @@ Before the robot vehicle is being quarantined, the program will be downloaded to
 
 
 ## Credits
-We would like to express our gratitude LEGO Education for your support and effort in providing us a good quality of LEGO EV3 sets. Besides that, the LEGO Mindstorms EV3 websites also contribute much in guiding us to create the programming for the competition.
+We would like to express our gratitude to LEGO Education for their support and effort in providing us a good quality of LEGO EV3 sets. Besides that, the LEGO Mindstorms EV3 websites also contribute lots of reference that guide us to create the programming for the competition.
