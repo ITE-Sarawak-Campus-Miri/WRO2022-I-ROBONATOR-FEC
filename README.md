@@ -73,10 +73,10 @@ The `CONFIG` part is the configuration part of the software. It contains the con
 The `MAIN` part is the main part of the software. It contains the main program of the vehicle.
 
 ## Round 1
-Round 1 is known as qualifying round. Our teams will programmed the robot vehicle to run in a proper way that will not knock on the wall. The ultrasonic sensor will be set up to make sure the vehicle is in certain distance away from the wall. Next, when the color sensor detected the orange line, the vehicle will react by turning left. When the color sensor detected blue line, the vehicle will react by turning right.
+Round 1 is known as qualifying round. Our teams will program the robot vehicle to run in a proper way that will not knock on the wall. The ultrasonic sensor will be set up to make sure the vehicle is in certain distance away from the wall. Next, when the color sensor detected the orange line, the vehicle will react by turning left. When the color sensor detected blue line, the vehicle will react by turning right.
 
 ## Round 2
-For round 2, the main core of programming used is also same with the round 1. However, sensors such as Pixy2 are being used to avoid hitting the obstacles. When there is no pillar in front of the vehicle, the robot will start to run in certain distance away from the wall by using ultrasonic sensor to make sure the vehicle run in the middle of the lane. When the Pixy2 sensed the green pillar, the robot will turn the steering to the left and when the Pixy2 sensed the red pillar, the robot's steering will turn to right.
+For round 2, the main core of programming used is also the same with the round 1. However, sensors such as Pixy2 are being used to avoid hitting the obstacles. When there is no pillar in front of the vehicle, the robot will start to run in certain distance away from the wall by using ultrasonic sensor to make sure the vehicle run in the middle of the lane. When the Pixy2 sensed the green pillar, the robot will turn the steering to the left and when the Pixy2 sensed the red pillar, the robot's steering will turn to right.
 
 ## Driving Demonstration
 This is our driving demonstration on both task which is without pillars and with pillars.
@@ -87,4 +87,4 @@ Before the robot vehicle is being quarantined, the program will be downloaded to
 
 
 ## Credits
-We would like to express our gratitude to LEGO Education for their support and effort in providing us a good quality of LEGO EV3 sets. Besides that, the LEGO Mindstorms EV3 websites also contribute lots of reference that guide us to create the programming for the competition.
+We would like to express our gratitude to LEGO Education for their support and effort in providing us a good quality of LEGO EV3 sets. Besides that, the LEGO Mindstorms EV3 websites also contribute vast of references that guide us to create the programming for the competition.
