@@ -22,7 +22,7 @@ This project is a self-driven vehicle's model participating in the WRO Future En
 
 ## Build of Robot
 
-The build of vehicle is mainly based on Lego Mindstorms EV3 Education set. The vehicle is constructed with 2 motors, 1 color sensor, 1 gyro sensor, 1 ultrasonic sensor and [Pixy2](https://pixycam.com/pixy2/) Camera. The vehicle is controlled by Lego Mindstorms EV3 Brick.
+The build of vehicle is mainly based on Lego Mindstorms EV3 Education set. The vehicle is constructed with 2 motors, 1 HiTechnic NXT Color Sensor V2, 1 gyro sensor and 2 [Pixy2](https://pixycam.com/pixy2/) Camera. The vehicle is controlled by Lego Mindstorms EV3 Brick.
 
 ### Chassis
 
@@ -41,39 +41,33 @@ Lego Medium Servo Motor is used as the steering motor.
 Lego Large Servo Motor is used as the driving motor. The driving motor is connected to a differential gear which allows one wheel to travel at a different speed than the other during turning, while both remain powered.
 
 ### Sensors
-There are 4 sensors used in this vehicle.
+There are 3 types of sensors used in this vehicle.
 
-#### Color sensor
-The color sensor help to scan and measure the color number and ouput in color. 
+#### HiTechnic NXT Color Sensor V2
+It helps to scan and measure the color number and ouput in color. 
 When the color sensor detected the orange or blue color on the map, it will adjust the steering to turn in certain direction.
 
 #### Gyro sensor
 The gyro sensor will help to detect rotational motion. Reset mode of the gyro sensor can minimize the "drifting" that cause the angle become inaccurate.
 
-#### Ultrasonic sensor
-The ultrasonic sensor can help to measure the distance to an object in front of it. Therefore, the sensor that install at the side of the vehicle can allow the vehicle to move in a suitable distance that would not cause it to knock the wall. This is because the ultrasonic sensor will make sure the vehicle to run in the middle of the lane.
-
 #### Pixy2
-The Pixy2 can learn to detect objects that thaught to it. For example, it can detect the red and green pillar based on the signature set. When the Pixy2 detected the green pillar, it will tell the robot to turn left.
+The Pixy2 can learn to detect objects that thaught to it. For example, it can detect the red and green pillar based on the signature set. When the Pixy2 detected the green pillar, it will tell the robot to turn left. The Pixy2 sensor also help the vehicle to allign with the wall and ensure the vehicle to walk straight.
 
 ### Software
 
 The software is written with Lego Mindstorms EV3-Graphics programming language.
+The software is divided into two parts which is 'QUALIFY' & 'MAIN'.
 
-The software is divided into 2 parts: `CONFIG` and `MAIN`.
+#### QUALIFY
+The "QUALIFY' part contains the progam for the qualify round.
 
-#### CONFIG
-
-The `CONFIG` part is the configuration part of the software. It contains the configuration of the vehicle.
-
-#### MAIN
-
-The `MAIN` part is the main part of the software. It contains the main program of the vehicle.
-
-## Round 1
+## Description of the program
 Round 1 is known as qualifying round. Our teams will program the robot vehicle to run in a proper way that will not knock on the wall. The Pixy2 sensor is used to allign the vehicle with the wall so that the vehicle can run in a straight and same way and thus can avoid from knocking the wall. Next, our team also use the color sensor to detect the color of line. When the color sensor scan orange line, it will react by turning to the right side and vice versa for the blue color. After the color sensor detect the line, it will turn to the particular direction by 25 degree until the Pixy2 detect the wall again. The robot will continue to walk straight with the wall until detect the corner of the wall again. The robot will stop after this process is repeated by 3 loops.
 
-## Round 2
+#### MAIN
+The `MAIN` part contains the program for the final round.
+
+## Description of the program
 For round 2, the main core of programming used is almost similar to the round 1. The color sensor wil be used  to help the robot to turn into the correct direction. However, there are 2 Pixy2 sensors will be used instead of one Pixy2 stated in the first round. The Pixy2 located at the highest is used to help the robot to turn in a correct direction. Besides that, it also help to allign the vehicle with the wall and prevent it from knocking into the wall. The Pixy2 located below will be used to avoid the traffic. The robot will avoid the pillars via the signature that have set in the Pixy2. 
 
 ## Driving Demonstration
