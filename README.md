@@ -59,7 +59,7 @@ The software is written with Lego Mindstorms EV3-Graphics programming language.
 The software is divided into two parts which is 'QUALIFY' & 'MAIN'.
 
 #### QUALIFY
-The "QUALIFY' part contains the progam for the qualify round.
+The `QUALIFY` part contains the progam for the qualify round.
 
 ## Description of the program
 Round 1 is known as qualifying round. Our teams will program the robot vehicle to run in a proper way that will not knock on the wall. The Pixy2 sensor is used to allign the vehicle with the wall so that the vehicle can run in a straight and same way and thus can avoid from knocking the wall. Next, our team also use the color sensor to detect the color of line. When the color sensor scan orange line, it will react by turning to the right side and vice versa for the blue color. After the color sensor detect the line, it will turn to the particular direction by 25 degree until the Pixy2 detect the wall again. The robot will continue to walk straight with the wall until detect the corner of the wall again. The robot will stop after this process is repeated by 3 loops.
