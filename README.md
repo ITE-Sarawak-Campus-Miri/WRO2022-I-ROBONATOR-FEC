@@ -12,11 +12,9 @@ This repository contains engineering materials of a self-driven vehicle's model 
 
 ## Our Team
 
--Vun Xiu Xuan
-
--Alvin Kong Wei Ee 
-
--Lai Chaun Choy 
+- Lai Chaun Choy (Programmer)
+- Vun Xiu Xuan (Programmer)
+- Alvin Kong Wei Ee (Robot handler)
 
 ## Introduction
 
@@ -73,10 +71,10 @@ The `CONFIG` part is the configuration part of the software. It contains the con
 The `MAIN` part is the main part of the software. It contains the main program of the vehicle.
 
 ## Round 1
-Round 1 is known as qualifying round. Our teams will program the robot vehicle to run in a proper way that will not knock on the wall. The ultrasonic sensor will be set up to make sure the vehicle is in certain distance away from the wall. Next, when the color sensor detected the orange line, the vehicle will react by turning left. When the color sensor detected blue line, the vehicle will react by turning right.
+Round 1 is known as qualifying round. Our teams will program the robot vehicle to run in a proper way that will not knock on the wall. The Pixy2 sensor is used to allign the vehicle with the wall so that the vehicle can run in a straight and same way and thus can avoid from knocking the wall. Next, our team also use the color sensor to detect the color of line. When the color sensor scan orange line, it will react by turning to the right side and vice versa for the blue color. After the color sensor detect the line, it will turn to the particular direction by 25 degree until the Pixy2 detect the wall again. The robot will continue to walk straight with the wall until detect the corner of the wall again. The robot will stop after this process is repeated by 3 loops.
 
 ## Round 2
-For round 2, the main core of programming used is also the same with the round 1. However, sensors such as Pixy2 are being used to avoid hitting the obstacles. When there is no pillar in front of the vehicle, the robot will start to run in certain distance away from the wall by using ultrasonic sensor to make sure the vehicle run in the middle of the lane. When the Pixy2 sensed the green pillar, the robot will turn the steering to the left and when the Pixy2 sensed the red pillar, the robot's steering will turn to right.
+For round 2, the main core of programming used is almost similar to the round 1. The color sensor wil be used  to help the robot to turn into the correct direction. However, there are 2 Pixy2 sensors will be used instead of one Pixy2 stated in the first round. The Pixy2 located at the highest is used to help the robot to turn in a correct direction. Besides that, it also help to allign the vehicle with the wall and prevent it from knocking into the wall. The Pixy2 located below will be used to avoid the traffic. The robot will avoid the pillars via the signature that have set in the Pixy2. 
 
 ## Driving Demonstration
 This is our driving demonstration on both task which is without pillars and with pillars.
